@@ -1,0 +1,125 @@
+body{
+    background-color: #202124;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar{
+    display: inline-flex;
+    float: right;
+}
+
+#mail{
+    padding-top: 20px;
+}
+
+#images{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#profile_photo{
+    width: 3.4rem;
+    height: auto;
+}
+
+#main-div{
+    display: flex;
+    justify-content: center;
+    width: 99rem;
+    height: 35rem;
+}
+
+#search_div{
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 40rem;
+}
+
+#sub_search_div{
+    text-align: center;
+    width: 35rem;
+    height: 30rem;
+}
+
+#google-img{
+    padding-top: 200px;
+    width: 18rem;
+    height: 6rem;
+}
+
+#search_box{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #202124;
+    border-radius: 20px;
+    width: 480px;
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+::placeholder{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#mic_img{
+    width: 2.5rem;
+}
+
+#google_search_btn{
+    margin-right: 10px;
+}
+
+#google_search_btn,#lucky_btn{
+    height: 36px;
+    width: 8rem;
+    background-color: #202124;
+    border:1px solid #f2f2f2;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+#footer_div{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #171717;
+    color: white;
+    text-align: center;
+}
+
+#footer_left{
+    float: left;
+}
+
+#footer_left li{
+    display: inline-block;
+}
+
+#footer_right{
+    float: right;
+}
+
+#footer_right li{
+    display: inline-block;
+}
+
+#footer_div ul li{
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
